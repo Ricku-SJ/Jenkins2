@@ -11,6 +11,7 @@ public class TestExecution extends MyExecution{
 	public void create()
 	{
 		Reporter.log("Create",true);
+		Reporter.log("This is the change",true);
 	}
 	@Test
 	public void modify()
